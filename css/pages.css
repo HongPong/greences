@@ -427,6 +427,9 @@ div.ces_summaryblock_white {
 div.ces_summaryblock_green {
   color: #9c3;
 }
+div.ces_summaryblock_red {
+  color: #d53;
+}
 div.ces_summaryblock_white {
   color: #fff;
 }
@@ -435,7 +438,37 @@ div.ces_summaryblock_currency {
   text-transform: capitalize;
   color: #999;
 }
-#block-ces-summaryblock-ces-summary div.form-type-select{
+#block-ces-summaryblock-ces-summary div.form-item-account{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width:148px;
+  overflow:hidden;
+  background: #333;
+}
+#block-ces-summaryblock-ces-summary div.form-item-account:hover{
+  background: url('../images/transparent-select-arrow.png') no-repeat scroll 119px 0px #333;
+}
+
+#block-ces-summaryblock-ces-summary select#edit-account{
+  background: transparent;
+  border: none;
+  color: white;
+  font-family: 'Asap';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  -webkit-appearance: none;
+  margin-left: -7px;
+  width: 176px;
+}
+#block-ces-summaryblock-ces-summary select#edit-account option{
+  background-color: #333;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#block-ces-summaryblock-ces-summary div.form-item-period{
   width:148px;
   overflow:hidden;
   background: url('../images/grey-select-arrow.png') no-repeat scroll 119px 0px #666;
