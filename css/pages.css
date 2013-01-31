@@ -676,6 +676,7 @@ div.ces-offerwant-image {
   float: left;
   margin-right: 10px;
 }
+
 div.ces-offerwant-properties{
   clear:both;
   margin-top: 10px;
@@ -722,6 +723,19 @@ div.ces-offerwant-footer div.user-picture img {
   height: 24px;
   width: 24px;
   border-radius: 3px;
+}
+div.ces-offerwant-rate {
+  text-align:right;
+  margin-bottom: 5px;
+  padding-right: 10px;
+}
+div.ces-offerwant-rate div {
+  display: inline-block;
+}
+div.ces-offerwant-rate .field-item {
+    font-style:italic;
+    font-size:16px;
+    margin-left:5px;
 }
 
 /*User profile*/
