@@ -411,7 +411,11 @@ div.ces_summaryblock_content{
   margin-bottom: 5px;
   color: #fff;
 }
-div.ces_summaryblock_user {
+div.ces_summaryblock_user,
+div.ces_summaryblock_user a,
+div.ces_summaryblock_user a:visited,
+div.ces_summaryblock_user a:hover
+{
   font-size: 14px;
   color: #999;
 }
@@ -499,6 +503,12 @@ span.ces_summaryblock_user_icon{
   display: inline-block;
   opacity: 0.3;
   background-size: 17px;
+}
+.block-ces-summaryblock a,
+.block-ces-summaryblock a:hover,
+.block-ces-summaryblock a:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
 /**
