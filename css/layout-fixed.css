@@ -79,6 +79,7 @@ body {
 }
 
 #main {
+  min-height:400px;
 }
 
 /*
@@ -98,8 +99,17 @@ body {
   width: 781px;
   margin-left: 242px; /* LTR */ /* The width of .region-sidebar-first. */
   margin-right: -1024px; /* LTR */ /* Negative value of #content's width + left margin. */
-  min-height: 500px;
+  /*min-height: 500px;*/
 }
+
+.front.sidebar-first #content {
+  width: 640px;
+  margin-left: 20px; /* LTR */ /* The width of .region-sidebar-first. */
+  margin-right: -660px; /* LTR */ /* Negative value of #content's width + left margin. */
+;
+  margin-top: 40px;
+}
+
 
 .sidebar-second #content {
   width: 760px;
@@ -112,6 +122,7 @@ body {
   margin-left: 200px; /* LTR */ /* The width of .region-sidebar-first */
   margin-right: -760px; /* LTR */ /* Negative value of #content's width + left margin. */
 }
+
 
 #content.section {
   margin-left: 60px;
@@ -127,7 +138,7 @@ body {
 #content-body {
   padding-top: 10px;
   padding-bottom: 5px;
-  margin-bottom: 80px;
+  /*margin-bottom: 80px;*/
 }
 
 /*
@@ -166,7 +177,19 @@ body {
   top:0;
   bottom:0;
   left:0;
-  min-height: 500px;
+  /*min-height: 500px;*/
+}
+
+.front .region-sidebar-first {
+  position: relative;
+  float: right;
+  margin-right: 40px;
+  margin-top: 40px;
+  width: 300px;
+}
+.front .region-sidebar-first .block {
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .region-sidebar-first .section {
@@ -174,6 +197,7 @@ body {
   padding-left: 20px;
   padding-top: 40px;
 }
+
 
 /*
  * Second sidebar
@@ -195,6 +219,10 @@ body {
  * Footer
  */
 .region-footer {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 962px;
 }
 
 /*

@@ -197,10 +197,12 @@
     <?php print render($page['sidebar_first']); ?>
 
     <?php print render($page['sidebar_second']); ?>
+    
+    <?php print render($page['footer']); ?>
 
   </div></div><!-- /#main, /#main-wrapper -->
 
-  <?php /*print render($page['footer']);*/ ?>
+  
 
 </div></div><!-- /#page, /#page-wrapper -->
 

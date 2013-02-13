@@ -284,11 +284,28 @@ ul.links li {
  * (see the layout.css file.)
  */
 .region-sidebar-first {
-  background-color: #d8d8d8;
-  border-right: solid 1px #CCC;
 }
 
 .region-sidebar-first .section {
+}
+
+.region-sidebar-first .block {
+  background-color: #d8d8d8;
+  border-right: solid 1px #CCC;
+}
+.front .region-sidebar-first .block {
+  border: solid 1px #CCC;
+}
+
+.front p.front-welcome {
+  font-size:23px;
+  margin-top:10px;
+}
+
+.front ul.front-list {
+  font-size: 18px;
+  margin: 10px 0 44px 0;
+  line-height: 2.0em;
 }
 
 /*
@@ -307,8 +324,27 @@ ul.links li {
  * Footer
  */
 .region-footer {
+  background-color: #d8d8d8;
+margin-left: 20px;
+margin-right: 40px;
+text-align: center;
+border: solid 1px #ccc;
+margin-bottom: 10px;
 }
-
+ul.front-links{
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom:5px;
+}
+ul.front-links li{
+  display: inline-block;
+  padding-right: 10px;
+  margin-left:10px;
+  border-right: solid 1px #333;
+}
+ul.front-links li.last{
+  border-right: none;
+}
 /*
  * Page bottom
  */
@@ -514,7 +550,9 @@ span.ces_summaryblock_user_icon{
 /**
  * Navigation block style.
  */
-
+ #block-system-navigation {
+   height: 100%;
+ }
 /** CSS reset */ 
 #block-system-navigation ul li.expanded {
   list-style-image: none;
@@ -528,13 +566,10 @@ span.ces_summaryblock_user_icon{
   list-style-image: none;
   list-style-type: none;
 }
-.region-sidebar-first #block-user-login{
-  margin-left: 30px;
-  margin-top: 20px;
-}
 .region-sidebar-first .section {
   padding:0 !important; 
   width:100%;
+  height: 100%;
 }
 #block-system-navigation .block-title {
   display: none;
@@ -549,8 +584,9 @@ span.ces_summaryblock_user_icon{
   font-size:14px;
 }
 #block-system-navigation  ul { 
-  margin:35px 0 0 0; 
-  padding:0; 
+  margin:0; 
+  padding:0;
+  padding-top: 20px;
   width:100%; 
   list-style: none;
 }

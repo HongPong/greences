@@ -118,6 +118,9 @@ function greences_preprocess_page(&$variables, $hook) {
     $variables['userfullname'] = $user->name;
     $variables['exchange'] = array('name' => t('Integral CES'));
   }
+  if($variables['is_front']) {
+    $variables['title'] = '';
+  }
 }
 
 /**

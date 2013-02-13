@@ -99,8 +99,39 @@ h2.block-title /* Block title */ {
 }
 
 #block-user-login /* "User login form" block */ {
+  
 }
-
+#block-user-login .block-title,
+#block-user-login .form-required {
+  display: none;
+}
+#block-user-login label{
+    float: left;
+    width: 80px;
+    position: relative;
+    top: 4px;
+}
+#block-user-login label:after{
+    content: ':';
+}
+#block-user-login .form-submit{
+ margin: 0; 
+}
+#block-user-login .form-actions{
+    float: left;
+    margin: 0;
+}
+#block-user-login .form-text {
+    width: 155px;
+    margin-left: 10px;
+}
+#block-user-login .form-item{
+    margin-top:0;
+}
+#block-user-login .item-list{
+    margin-left: 15px;
+    float: left;
+}
 #block-user-new /* "Who's new" block for a list of the newest users */ {
 }
 

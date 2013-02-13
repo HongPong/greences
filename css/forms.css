@@ -138,7 +138,9 @@ input.form-button-disabled, input.form-button-disabled:hover, input.form-button-
  */
 
 #user-login-form ul /* OpenID creates a new ul above the login form's links. */ {
-  margin-bottom: 0; /* Position OpenID's ul next to the rest of the links. */
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 html.js #user-login-form li.openid-link,
