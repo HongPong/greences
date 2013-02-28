@@ -4,10 +4,21 @@
  *
  * Style anything that isn't in the $content variable.
  */
-
-
-.node /* Node wrapper */ {
+.node /* Node wrapper */{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #F1F1F1;
+  padding: 10px;
+  -moz-box-shadow: 3px 3px 3px -1px #bbb;
+  -webkit-box-shadow: 3px 3px 3px -1px #BBB;
+  box-shadow: 3px 3px 3px -1px #BBB;
 }
+
+.node-footer{
+  border-top: solid 1px white;
+  padding-top: 5px;
+}
+
 
 .preview .node /* Preview of the content before submitting new or updated content */ {
   /* background-color: #ffffea; */ /* Drupal core uses a #ffffea background */
@@ -54,16 +65,46 @@
 }
 
 h2.node-title /* Node title */ {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+h2.node-title a,
+h2.node-title a:hover,
+h2.node-title a:visited {
+  color: black;
+  text-decoration: none;
 }
 
 .node .user-picture /* The picture of the node author */ {
 }
 
 .node .submitted /* The "posted by" information */ {
+  font-style: italic;
 }
 
 .node .content /* Node's content wrapper */ {
+  margin-bottom: 10px;
 }
 
 .node ul.links /* Node links. See also the ul.links declaration in the pages.css. */ {
+  margin-top: 5px;
+  margin-bottom: 0;
+  float: right;
+}
+.node .user-picture{
+  float:left;
+}
+.node .node-author-details{
+  float: left;
+}
+.node .node-author-details span{
+  display:block;
+  line-height: 1em;
+}
+.node li a.active,
+.comment li a.active{
+  color: #0074BD;
+  text-decoration:none;
+  font-weight: bold;
 }

@@ -758,14 +758,18 @@ div.ces-offerwant-actions {
   margin-top: 5px;
   float: right;
 }
-div.ces-offerwant-footer div.user-picture {
+div.ces-offerwant-footer div.user-picture,
+.node div.user-picture,
+.comment div.user-picture{
   height: 24px;
   border-radius: 3px;
   border-color: #fff;
   background-color: #fff;
   border-width: 2px;
 }
-div.ces-offerwant-footer div.user-picture img {
+div.ces-offerwant-footer div.user-picture img,
+.node div.user-picture img,
+.comment div.user-picture img{
   height: 24px;
   width: 24px;
   border-radius: 3px;
