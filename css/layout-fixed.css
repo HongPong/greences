@@ -79,7 +79,7 @@ body {
 }
 
 #main {
-  min-height:400px;
+  /* min-height:450px;*/
 }
 
 /*
@@ -99,15 +99,17 @@ body {
   width: 781px;
   margin-left: 242px; /* LTR */ /* The width of .region-sidebar-first. */
   margin-right: -1024px; /* LTR */ /* Negative value of #content's width + left margin. */
-  /*min-height: 500px;*/
 }
 
-.front.sidebar-first #content {
+.sidebar-first .front #content {
   width: 640px;
   margin-left: 20px; /* LTR */ /* The width of .region-sidebar-first. */
   margin-right: -660px; /* LTR */ /* Negative value of #content's width + left margin. */
-;
-  margin-top: 40px;
+  
+}
+
+.front #content-body {
+  /*height: 316px;*/
 }
 
 
@@ -138,7 +140,11 @@ body {
 #content-body {
   padding-top: 10px;
   padding-bottom: 5px;
+  min-height: 316px;
   /*margin-bottom: 80px;*/
+}
+#content-header{
+  min-height: 40px;
 }
 
 /*
@@ -220,9 +226,9 @@ body {
  */
 .region-footer {
   clear: both;
-  position: absolute;
+  /*position: absolute;
   bottom: 0;
-  width: 962px;
+  width: 962px;*/
 }
 
 /*

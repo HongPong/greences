@@ -308,6 +308,14 @@ ul.links li {
   line-height: 2.0em;
 }
 
+.block-ces-user div.form-item{
+  margin: 0;
+  margin-top: 5px;
+}
+.block-ces-user select{
+  width: 250px;
+}
+
 /*
  * Second sidebar (on right in LTR languages, on left in RTL)
  *
